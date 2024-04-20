@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     private void findRestaurant() {
         showLoading(true);
         Call<RestaurantResponse> client = ApiConfig.getApiService().getRestaurant(RESTAURANT_ID);
